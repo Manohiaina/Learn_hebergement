@@ -30,7 +30,7 @@
             indice_couleur=0;
             function fonc(){
                 document.getElementById("compteur").innerHTML="Compteur= "+compteur;
-                t=setTimeout("fonc()",20);
+                t=setTimeout("fonc()",10);
                 cont.fillStyle="#EEE";
                 cont.fillRect(0,0,600,400);
                 cont.fillStyle=couleur;
